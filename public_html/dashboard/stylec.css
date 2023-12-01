@@ -1,0 +1,28 @@
+*::-webkit-scrollbar{
+    display: none;
+}
+:root{
+    --black:black;
+    --white:white;
+}
+body{
+    background-color: var(--black);
+}
+.smdul{
+    list-style:none ;
+}
+.smdul li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.smdul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white !important;
+    font-size: large;
+}
+.clpage{
+    overflow-y: scroll;
+}
